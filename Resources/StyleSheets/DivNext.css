@@ -1,0 +1,12 @@
+.divleft {
+  float: left;
+}
+
+.divright {
+  float: right;
+  margin-left: 10px;
+}
+
+.entirething {
+  width: 650px;
+}
