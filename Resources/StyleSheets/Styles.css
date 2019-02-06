@@ -1,3 +1,11 @@
-.TextDec {
-font-size: 45px; 
+.NameText {
+  font-size: 50px; 
+  margin-left:auto; 
+  margin-right:auto; 
+  Font-Family: Font1; 
+  Color: Black; 
+  Text-Shadow: 1px 1px grey:
+    Border: Solid black 3px; 
+  border-Radius: 20px; 
+  background-image: Url(Images/TextGround.jpg);
 }
