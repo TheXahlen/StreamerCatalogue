@@ -1,4 +1,5 @@
 .TheLeft {
+  font-family: Font1; 
 text-align:Left; 
   padding-right: 30px; 
   border: solid 6px grey; 
@@ -7,6 +8,7 @@ text-align:Left;
   height: 50px; 
 }
 .TheRight {
+    font-family: Font1; 
 text-align:Right; 
   padding-right: 30px; 
   border: solid 6px grey; 
@@ -15,6 +17,7 @@ text-align:Right;
   height: 50px; 
 }
 .TheCenter {
+    font-family: Font1; 
 text-align:Center; 
   padding-right: 30px; 
   border: solid 6px grey; 
