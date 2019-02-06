@@ -1,5 +1,21 @@
-.The {
-text-align:right; 
+.TheLeft {
+text-align:Left; 
+  padding-right: 30px; 
+  border: solid 6px grey; 
+  border-radius: 50px;
+  background-color:white; 
+  height: 50px; 
+}
+.TheRight {
+text-align:Right; 
+  padding-right: 30px; 
+  border: solid 6px grey; 
+  border-radius: 50px;
+  background-color:white; 
+  height: 50px; 
+}
+.TheCenter {
+text-align:Center; 
   padding-right: 30px; 
   border: solid 6px grey; 
   border-radius: 50px;
