@@ -6,6 +6,7 @@ text-align:Left;
   border-radius: 50px;
   background-color:white; 
   height: 50px; 
+  width: 70px;
 }
 .TheRight {
     font-family: Font1; 
@@ -15,6 +16,7 @@ text-align:Right;
   border-radius: 50px;
   background-color:white; 
   height: 50px; 
+  width: 70px;
 }
 .TheCenter {
     font-family: Font1; 
@@ -24,6 +26,7 @@ text-align:Center;
   border-radius: 50px;
   background-color:white; 
   height: 50px; 
+  width: 100%;
 }
 
 .TableClass {
