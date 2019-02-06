@@ -6,7 +6,7 @@ text-align:Left;
   border-radius: 50px;
   background-color:white; 
   height: 50px; 
-  width: 70px;
+  width: 100%;
 }
 .TheRight {
     font-family: Font1; 
@@ -16,7 +16,7 @@ text-align:Right;
   border-radius: 50px;
   background-color:white; 
   height: 50px; 
-  width: 70px;
+  width: 100%;
 }
 .TheCenter {
     font-family: Font1; 
