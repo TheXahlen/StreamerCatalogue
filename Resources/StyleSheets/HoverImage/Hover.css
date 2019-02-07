@@ -1,10 +1,8 @@
 
  .PageTyler {
-        width: 130px;
-        height: 195px;
-        background: url("/examples/images/card-back.jpg") no-repeat;
-        margin: 50px;
+        background: url("Resources/StyleSheets/Images/TylerGallery.jpg") no-repeat;
+      
     }
     .PageTyler:hover {
-        background: url("/examples/images/card-front.jpg") no-repeat;
+        background: url("Resources/StyleSheets/HoverImage/TylerPage.png") no-repeat;
     }
