@@ -12,6 +12,80 @@
      background-size: 100% 100%;
     
     }
+
+.PageSummit {
+      height: 230px;
+  width: 250px;
+        background: url("Images/SummitGallery.jpg") no-repeat;
+   background-size: 100% 100%;
+
+ 
+    }
+  
+ .PageSummit:hover {
+        background: url("HoverImage/SummitPage.png") no-repeat;
+     background-size: 100% 100%;
+    
+    }
+
+.PageDoc {
+      height: 230px;
+  width: 250px;
+        background: url("Images/DocGallery.jpg") no-repeat;
+   background-size: 100% 100%;
+
+ 
+    }
+  
+ .PageDoc:hover {
+        background: url("HoverImage/DocPage.png") no-repeat;
+     background-size: 100% 100%;
+    
+    }
+
+.PageShroud {
+      height: 230px;
+  width: 250px;
+        background: url("Images/ShroudGallery.jpeg") no-repeat;
+   background-size: 100% 100%;
+
+ 
+    }
+  
+ .PageShroud:hover {
+        background: url("HoverImage/ShroudPage.png") no-repeat;
+     background-size: 100% 100%;
+    
+    }
+.PageGreek {
+      height: 230px;
+  width: 250px;
+        background: url("Images/GreekGallery.jpeg") no-repeat;
+   background-size: 100% 100%;
+
+ 
+    }
+  
+ .PageGreek:hover {
+        background: url("HoverImage/GreekPage.png") no-repeat;
+     background-size: 100% 100%;
+    
+    }
+
+.PageIce {
+      height: 230px;
+  width: 250px;
+        background: url("Images/IceGallery.jpg") no-repeat;
+   background-size: 100% 100%;
+
+ 
+    }
+  
+ .PageIce:hover {
+        background: url("HoverImage/IcePage.png") no-repeat;
+     background-size: 100% 100%;
+    
+    }
 .CenterLink {
 border: black solid 2px;
 margin-left: auto; 
