@@ -2,12 +2,12 @@
       height: 100px;
   width: 200px;
         background: url("Images/TylerGallery.jpeg") no-repeat;
-   background-size: 100% 100%;
+   background-size: cover;
+  display: inline-block;
  
     }
     .PageTyler:hover {
         background: url("HoverImage/TylerPage.png") no-repeat;
-      background-size: 100% 100%;
-      height: 100px;
-  width: 200px;
+     
+    
     }
