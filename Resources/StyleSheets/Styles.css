@@ -12,6 +12,7 @@
 .DivBorder {
 border: solid black 3px;
   background-image: url("Images/PatternGallery.png");
+  background-size: 100% 50%;
   width: 95%; 
   margin: 18px;
   margin-left:auto;
