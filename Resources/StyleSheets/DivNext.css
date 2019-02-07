@@ -1,12 +1,16 @@
-.divleft {
-  float: left;
+#wrapper {
+    border: 1px solid blue;
 }
-
-.divright {
-  float: right;
-  margin-left: 10px;
+#div1 {
+    display: inline-block;
+    width:120px;
+    height:120px;
+    border: 1px solid red;
 }
-
-.entirething {
-  width: 650px;
+#div2 {
+    vertical-align:top;
+    display: inline-block;
+    width:160px;
+    height:160px;
+    border: 1px solid green;
 }
