@@ -2,9 +2,11 @@
 position:relative;
 }
 .hover_img a span { 
-position:absolute;
+position:relative;
+  top:0;
+  right:0;
 display:none; 
-z-index:20; 
+z-index:99; 
 }
 .hover_img a:hover span { 
 display:block;
