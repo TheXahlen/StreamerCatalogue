@@ -1,5 +1,5 @@
  .PageTyler {
-      height: 100px;
+      height: 250px;
   width: 200px;
         background: url("Images/TylerGallery.jpeg") no-repeat;
    background-size: cover;
@@ -7,7 +7,7 @@
  
     }
   
-a:hover > .PageTyler {
+ .PageTyler:hover {
         background: url("HoverImage/TylerPage.png") no-repeat;
      
     
