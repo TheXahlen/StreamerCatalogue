@@ -3,11 +3,12 @@
 }
 #div1 {
     display: inline-block;
-   
-    border: 1px solid red;
+   width:50%;
+    
 }
 #div2 {
     vertical-align:top;
     display: inline-block;
+    width:50%;
    
 }
