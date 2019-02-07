@@ -1,9 +1,9 @@
  .PageTyler {
       height: 100px;
   width: 200px;
-        background: url("Resources/StyleSheets/Images/TylerGallery.jpeg") no-repeat;
+        background: url("Images/TylerGallery.jpeg") no-repeat;
  
     }
     .PageTyler:hover {
-        background: url("Resources/StyleSheets/HoverImage/TylerPage.png") no-repeat;
+        background: url("HoverImage/TylerPage.png") no-repeat;
     }
