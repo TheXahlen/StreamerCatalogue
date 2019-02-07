@@ -7,11 +7,11 @@
   Text-Shadow: 1px 1px grey;
     Border: Solid black 3px; 
   border-Radius: 20px; 
-  background-image: Url("Images/TextGround.jpg") no-repeat;
+  background-image: url("Images/PatternGallery.png") no-repeat cover;
 }
 .DivBorder {
 border: solid black 3px;
-  background-image: url("Images/PatternGallery.png") no-repeat cover;
+  background-image: Url("Images/TextGround.jpg") no-repeat cover;
   background-size: cover;
   width: 95%; 
   margin: 18px;
