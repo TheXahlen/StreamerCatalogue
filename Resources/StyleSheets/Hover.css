@@ -9,7 +9,7 @@
   
  .PageTyler:hover {
         background: url("HoverImage/TylerPage.png") no-repeat;
-     
+     background-size: cover;
     
     }
 .CenterLink
