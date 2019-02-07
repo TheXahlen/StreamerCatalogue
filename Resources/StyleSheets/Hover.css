@@ -6,4 +6,6 @@
     }
     .PageTyler:hover {
         background: url("HoverImage/TylerPage.png") no-repeat;
+      height: 100px;
+  width: 200px;
     }
