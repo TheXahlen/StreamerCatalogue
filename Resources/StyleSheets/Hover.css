@@ -6,7 +6,8 @@
   display: inline-block;
  
     }
-    .PageTyler:hover {
+  
+a:hover > .PageTyler {
         background: url("HoverImage/TylerPage.png") no-repeat;
      
     
