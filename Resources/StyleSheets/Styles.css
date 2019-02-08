@@ -1,11 +1,15 @@
+.WholeBody { 
+   border-image: url(Images/Border.png) 30 round;
+   border-radius: 100% 100% 0px 0px;
+}
 .NameText {
   font-size: 50px; 
   margin-left:auto; 
   margin-right: auto; 
-  Color: Black; 
-  Text-Shadow: 1px 1px grey;
-    Border: Solid black 3px; 
-  border-Radius: 20px; 
+  color: Black; 
+  text-shadow: 1px 1px grey;
+    border: Solid black 3px; 
+  border-radius: 20px; 
   background-image: url("Images/PatternGallery.png") cover;
  background-size: cover;
 }
