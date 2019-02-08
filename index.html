@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html  lang="en" dir="ltr">
 <head> 
+      <meta charset="utf-8">
+    <meta name="description" content="">
+    <neta name="author" content="Dahlen Bryce">
+        <title>Streamer Catalogue </title>
+        </head>
 <style>
-    body {
-    background-color: black;
-    }
     .Image{
     background-image: url("Resources/StyleSheets/Images/TextGround.jpg");
     }
     .DivBorderLeft {
-border: solid White 3px;
-  border-radius: 30px;
+ border-width: 20px;
+      border-style: solid;
+      border-image: url(Resources/StyleSheets/Images/Border.png) 10% round;
    background-image: url("Resources/StyleSheets/Images/TextGround.jpg");
   float: left;
 }
 .DivBorderRight {
-border: solid White 3px;
-  border-radius: 30px;
+ border-width: 20px;
+      border-style: solid;
+      border-image: url(Resources/StyleSheets/Images/Border.png) 10% round;
    background-image: url("Resources/StyleSheets/Images/TextGround.jpg");
   float: right;
 }
@@ -31,18 +35,63 @@ border: solid White 3px;
   border-Radius: 20px; 
   background-image: url("Resources/StyleSheets/Images/PatternGallery.png");
  background-size: cover;
+    }
+    .bottomcenter {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
 }
-    </style>
-<link rel="stylesheet" type="text/css"  href="Resources/StyleSheets/Styles.css">
-    <link rel="stylesheet" type="text/css"  href="Resources/StyleSheets/Fonts/Fonts.css">
-        <link rel="stylesheet" type="text/css"  href="Resources/StyleSheets/Hover.css">
+    .container {
+  position: relative;
+  text-align: center;
+  color: white;
+     margin-left: auto;
+      margin-right: auto;
+}
+    .Newer {
+      width: 100%;
+      text-align:center; 
+      background-color:rgba(0, 0, 0, 0.5); 
+    }
+    .WholeBody { 
+      border-width: 20px;
+      border-style: solid;
+      border-image: url(Resources/StyleSheets/Images/Border.png) 25% round;
+      z-index: 99;
+    }
+    .Back{
+      background-color:rgba(255, 255, 255, 0.4); 
+      z-index: 80;
+       border-width: 20px;
+      border-style: solid;
+      border-image: url(Resources/StyleSheets/Images/Border.png) 10% round;
+    }
+    .TextBack{
+      text-shadow: 1px 1px white;
+      font-size: 22px;
+      border-width: 10px;
+      border-style: solid;
+      border-image: url(Resources/StyleSheets/Images/Border.png) 15% round; 
+      background-image:url(Resources/StyleSheets/Images/PatternBack.jpg); 
+      color:black;
+      padding-bottom: 10px; 
+      width:50%;
+    }
+    body {
+      background-image: url(Resources/StyleSheets/Images/Background.gif);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      z-index: -1;
+    }
+  </style>
+    
+ 
    
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <neta name="author" content="Dahlen Bryce">
-        <title>Streamer Catalogue </title>
-        </head>
-    <body background-color="black">
+  
+    <body class="WholeBody">
+        <div class="Back"> 
         <a href="Tyler.html">
 <div>
     <table class="DivBorderLeft">
@@ -147,6 +196,6 @@ border: solid White 3px;
          </div>
      
     </a>
-  
+            </div>
   </body>
   </html>
