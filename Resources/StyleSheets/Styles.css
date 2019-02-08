@@ -1,0 +1,38 @@
+.WholeBody { 
+   border-image: url("Images/Border.png") 30 round;
+   border-radius: 100% 100% 0px 0px;
+}
+.NameText {
+  font-size: 50px; 
+  margin-left:auto; 
+  margin-right: auto; 
+  color: Black; 
+  text-shadow: 1px 1px grey;
+    border: Solid black 3px; 
+  border-radius: 20px; 
+  background-image: url("Images/PatternGallery.png") cover;
+ background-size: cover;
+}
+.DivBorderLeft {
+border: solid White 3px;
+  border-radius: 30px;
+   background-image: url("Images/TextGround.jpg") cover;
+  float: left;
+}
+.DivBorderRight {
+border: solid White 3px;
+  border-radius: 30px;
+   background-image: url("Images/TextGround.jpg") cover;
+  float: right;
+}
+.ImageBorder {
+border: solid black 3px;
+  border-radius: 30px; 
+}
+
+.ImageBorderSlide {
+border: solid black 3px;
+  border-radius: 30px; 
+Width: 300px;
+  Height:  250px;
+}
