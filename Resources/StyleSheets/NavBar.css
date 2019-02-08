@@ -2,10 +2,8 @@
   font-family: Font1; 
 text-align:Left; 
   padding-right: 30px; 
-border-width: 10px;
-    border-style: solid;
-   border-image: url(Resources/StyleSheets/Images/Border.png) 50% round;
-  background-color:white; 
+border: solid black 3px;
+ background-image: url(Images/PatternGallery.jpg); 
   height: 50px; 
   width: 35%;
 }
@@ -13,10 +11,8 @@ border-width: 10px;
     font-family: Font1; 
 text-align:Right; 
   padding-right: 30px; 
- border-width: 5px;
-    border-style: solid;
-   border-image: url(Resources/StyleSheets/Images/Border.png) 50% round;
-  background-color:white; 
+border: solid black 3px;
+ background-image: url(Images/PatternGallery.jpg);  
   height: 50px; 
   width: 35%;
 }
@@ -24,10 +20,8 @@ text-align:Right;
     font-family: Font1; 
 text-align:Center; 
   padding-right: 30px; 
- border-width: 5px;
-    border-style: solid;
-   border-image: url(Resources/StyleSheets/Images/Border.png) 50% round;
-  background-color:white; 
+border: solid black 3px;
+  background-image: url(Images/PatternGallery.jpg); 
   height: 50px; 
   width: 30%;
 }
