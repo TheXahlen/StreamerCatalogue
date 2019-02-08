@@ -26,8 +26,12 @@ width: 100%;
        border-width: 15px;
     border-style: solid;
    border-image: url(Resources/StyleSheets/Images/Border.png) 15% round;
-      background-color:rgba(0, 0, 0, 0.8); 
+     
 }
+   .Back{
+ background-color:rgba(0, 0, 0, 0.8); 
+      z-index: 99;
+    }
    .TextBack{
    text-shadow: 1px 1px white;
      font-size: 22px;
@@ -41,13 +45,14 @@ width: 100%;
     
     }
     body {
-     background-image: url(Resources/StyleSheets/Images/Background.gif);
+     background-image: url(Resources/StyleSheets/Images/Background.gif) cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
+      z-index: -1;
     }
   </style>
 <body>
-  <div class="WholeBody" > 
+  <div class="WholeBody Back"  > 
   <figure>
   <div class="w3-content w3-section" style="max-width:500px">
   <img class="mySlides ImageBorderSlide" src="Resources/StyleSheets/SlidingGallery/Tyler/Tyler1.jpg" style="width:100%">
