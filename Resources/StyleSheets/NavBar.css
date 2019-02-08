@@ -3,7 +3,7 @@
 text-align:Left; 
   padding-right: 30px; 
 border: solid black 3px;
- background-image: url(Images/PatternGallery.jpg); 
+ background-image: url(Images/PatternBack.jpg); 
   height: 50px; 
   width: 35%;
 }
@@ -12,7 +12,7 @@ border: solid black 3px;
 text-align:Right; 
   padding-right: 30px; 
 border: solid black 3px;
- background-image: url(Images/PatternGallery.jpg);  
+ background-image: url(Images/PatternBack.jpg);  
   height: 50px; 
   width: 35%;
 }
@@ -21,7 +21,7 @@ border: solid black 3px;
 text-align:Center; 
   padding-right: 30px; 
 border: solid black 3px;
-  background-image: url(Images/PatternGallery.jpg); 
+  background-image: url(Images/PatternBack.jpg); 
   height: 50px; 
   width: 30%;
 }
