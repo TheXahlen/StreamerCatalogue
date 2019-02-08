@@ -10,10 +10,17 @@
   background-image: url("Images/PatternGallery.png") cover;
  background-size: cover;
 }
-.DivBorder {
-border: solid black 3px;
-  background-image: url("Images/TextGround.jpg") cover;
-  
+.DivBorderLeft {
+border: solid White 3px;
+  border-radius: 30px;
+   background-image: url("Images/TextGround.jpg") cover;
+  float: left;
+}
+.DivBorderRight {
+border: solid White 3px;
+  border-radius: 30px;
+   background-image: url("Images/TextGround.jpg") cover;
+  float: right;
 }
 .ImageBorder {
 border: solid black 3px;
