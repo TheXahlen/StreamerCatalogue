@@ -64,10 +64,8 @@
 
       .Back{
         background-color:rgba(255, 255, 255, 0.4); 
-        z-index: 80;
-        border-width: 20px;
-        border-style: solid;
-        border-image: url(Resources/StyleSheets/Images/Border.png) 10% round;
+       z-index: 99;
+       
       }
       .TextBack{
         text-shadow: 1px 1px white;
@@ -81,10 +79,14 @@
         width:50%;
       }
       body {
-     <!--   background-image: url(Resources/StyleSheets/Images/Background.gif); -->
+   background-image: url(Resources/StyleSheets/Images/Background.gif);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
+         border-width: 20px;
+        border-style: solid;
+        border-image: url(Resources/StyleSheets/Images/Border.png) 10% round;
+        z-index: -1;
    
       }
     </style>
